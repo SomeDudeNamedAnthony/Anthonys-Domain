@@ -1,0 +1,15 @@
+{
+    "name": "anthonys-domain",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev-server": "live-server"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.2",
+        "prettier": "^3.3.3",
+        "stylelint": "^16.7.0",
+        "stylelint-config-standard-scss": "^13.1.0"
+    }
+}

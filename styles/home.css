@@ -1,0 +1,12 @@
+#content #body #portfolio {
+    margin: auto;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    #content #body #portfolio {
+        width: 100%;
+    }
+}

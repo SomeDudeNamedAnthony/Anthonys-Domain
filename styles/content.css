@@ -1,0 +1,39 @@
+#content {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    margin: 48px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 8px;
+}
+
+#content #header {
+    z-index: -1;
+    flex: 0 1 auto;
+}
+
+#content #body {
+    z-index: -1;
+    flex: 1 1 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto;
+}
+
+#content #footer {
+    z-index: -1;
+    flex: 0 1 auto;
+    height: 64px;
+}
+
+@media screen and (width <= 320px) {
+    #content {
+        margin: 0;
+        border-color: #0000;
+        border-style: none;
+        border-radius: 0;
+        border-width: 0;
+    }
+}
