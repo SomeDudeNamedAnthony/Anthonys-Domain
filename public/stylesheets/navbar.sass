@@ -1,0 +1,40 @@
+@import "colors.sass"
+
+$navbar-links-padding: 1rem
+$navbar-link-padding: 0.32rem 1rem
+//
+
+#navbar
+    overflow: hidden
+    background-color: $navbar-background-color
+    padding-top: 1.2rem
+
+
+#navbar #logo-text
+    font-size: 1.45rem
+    font-weight: bold
+    padding-left: 1rem
+    text-decoration: none
+    color: $text-color
+
+#navbar #links
+    padding-left: $navbar-links-padding
+    padding-right: $navbar-links-padding
+    padding-top: 0.5rem
+
+#navbar #links .link
+    float: left
+    display: block
+    color: $text-color
+    text-align: center
+    text-decoration: none
+    font-size: 1.20rem
+    //padding: 14px 16px
+    padding: $navbar-link-padding
+    margin-top: 0.5rem
+
+#navbar #links .link:hover
+    background-color: $navbar-item-selected-background-color
+
+#navbar #links .link.active
+    background-color: $content-background-color

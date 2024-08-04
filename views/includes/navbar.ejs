@@ -1,0 +1,16 @@
+<div id="navbar" class="container">
+    <a href="/" id="logo-text"><%= title %></a>
+    <div id="links" class="container">
+        <% pages.forEach((page) => { %>
+            <% if (page.name.toLowerCase() === currentPage.toLowerCase()) { %>
+                <a class="link active" href="<%= page.url %>">
+                    <%= page.name %>
+                </a>
+            <% } else { %>
+                <a class="link" href="<%= page.url %>">
+                    <%= page.name %>
+                </a>
+            <% } %>
+        <% }) %>
+    </div>
+</div>
