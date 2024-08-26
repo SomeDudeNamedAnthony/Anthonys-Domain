@@ -6,8 +6,15 @@ const pages = [
     {
         name: "Home",
         filename: "index",
-        url: "/"
-    }
+        url: "/",
+        options: []
+    },
+    {
+        name: "Projects",
+        filename: "projects",
+        url: "/projects",
+        options: []
+    },
 ]
 
 let options = {
